@@ -32,10 +32,4 @@
       <li>{quote.author} said {quote.text}</li>
     {/each}
   </ul>
-
-  <p>
-    {#if quotes === [""]}
-      {error}
-    {/if}
-  </p>
 </div>
